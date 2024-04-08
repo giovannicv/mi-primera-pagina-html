@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="row">
+        <div class="col">
+        <img src="img/JavaScriptBanner.png" width="100%">
+        <nav class="navbar sticky-top navbar-toggleable-md navbar-inverse bg-inverse">
+                <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#fm-menu" aria-controls="fm-menu" aria-expanded="false" aria-label="Menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>      
+                    <div class="collapse navbar-collapse menu" id="fm-menu">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="practica1.html" class="nav-link">Practica 1</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="practica2.html" class="nav-link">Practica 2</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="practica3.html" class="nav-link">Practica 3</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="practica4.html" class="nav-link">Practica 4</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="practica5.html" class="nav-link">Practica 5</a>
+                                </li>
+                            
+                            </ul>
+                        </div>
+                    </div>
+    </header>
+    <main>
+        <ol>
+            <li>¿Cuáles son las características principales de JavaScript?</li>
+            <p><strong> Imperativo y estructurado</strong></p>
+            <p>JavaScript es compatible con gran parte de la estructura de programación de C 
+                (por ejemplo, sentencias if, bucles for, sentencias switch, etc.). Con una salvedad, 
+                en parte: en C, el ámbito de las variables alcanza al bloque en el cual fueron definidas; 
+                sin embargo JavaScript no es compatible con esto, puesto que el ámbito de las variables es 
+                el de la función en la cual fueron declaradas. Esto cambia con la versión de ECMAScript 2015, 
+                ya que añade compatibilidad con block scoping por medio de la palabra clave let. Como en C, 
+                JavaScript hace distinción entre expresiones y sentencias. Una diferencia sintáctica con respecto 
+                a C es la inserción automática de punto y coma, es decir, en JavaScript los puntos y coma que 
+                finalizan una sentencia pueden ser omitidos.</p>
+            <p><strong>Dinámico</strong></p>
+            <p>Como en la mayoría de lenguajes de scrpting, el tipo está asociado al valor, no a la variable. 
+                Por ejemplo, una variable x en un momento dado puede estar ligada a un número y más adelante, 
+                religada a una cadena. JavaScript es compatible con varias formas de comprobar el tipo de un 
+                objeto, incluyendo duck tiping. Una forma de saberlo es por medio de la palabra clave typeof.</p>
+            <p><strong>Objetual</strong></p>
+            <p>JavaScript está formado casi en su totalidad por objetos Los objetos en JavaScript son arrays asociativos, 
+                mejorados con la inclusión de prototipos (ver más adelante). Los nombres de las propiedades de los objetos 
+                son claves de tipo cadena: obj.x = 10 y obj['x'] = 10 son equivalentes, siendo la notación con punto azúcar 
+                sintáctico. Las propiedades y sus valores pueden ser creados, cambiados o eliminados en tiempo de ejecución. 
+                La mayoría de propiedades de un objeto (y aquellas que son incluidas por la cadena de la herencia prototípica)
+                 pueden ser enumeradas a por medio de la instrucción de bucle for... in. JavaScript tiene un pequeño número de 
+                 objetos predefinidos como son Function y Date.</p>
+            <p><strong>Evaluación en tiempo de ejecución</strong></p>
+            <p>JavaScript incluye la función eval que permite evaluar expresiones como expresadas como cadenas 
+                en tiempo de ejecución. Por ello se recomienda que eval sea utilizado con precaución y que se 
+                opte por utilizar la función JSON.parse() en la medida de lo posible, pues resulta mucho más 
+                segura.</p>
+            <p><strong>Prototipos</strong></p>
+            <p>JavaScript usa prototipos en vez de clases para el uso de herencia. Es posible llegar a emular 
+                muchas de las características que proporcionan las clases en lenguajes orientados a objetos 
+                tradicionales por medio de prototipos en JavaScript.</p>
+            <li>¿Qué es el DOM?</li>
+            <p>El DOM es la estructura de objetos que genera el navegador cuando se carga un documento y 
+                se puede alterar mediante Javascript para cambiar dinámicamente los contenidos y aspecto 
+                de la página.</p>
+            <li>Crea un script que genere 3 números aleatorios entre 1 y 99 pero que no se repita ninguno</li>
+            
+            <li>¿Qué son las expresiones regulares?</li>
+            <p>Las expresiones regulares son patrones utilizados para encontrar una determinada combinación de 
+                caracteres dentro de una cadena de texto. En JavaScript, las expresiones regulares también son objetos. 
+                Estos patrones se utilizan en los métodos exec y test de RegExp, así como los métodos match, replace, 
+                search y split de String. En este capítulo se describe el uso y funcionamiento de las expresiones regulares en JavaScript.</p>
+            <li>Realiza una calculadora básica usando JavaScript</li>
+            <a href="calculadora.html">Calculadora</a>
+            <li>Utiliza JavaScript para validar los formularios y añade algunas funcionalidades que creas necesarias en tu página web</li>
+        </ol>
+    </main>
+    <footer class="row">
+            <div class="col d-flex justify-content-center">
+                
+                    <p>© 2019 Giovanni</p>
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/" target="_blank">GitHub</a>
+                        </li>
+                    </ul>
+            </div>
+        </footer>
+</body>
+</html>
